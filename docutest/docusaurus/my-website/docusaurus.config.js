@@ -155,4 +155,11 @@ const config = {
     }),
 };
 
+module.exports = {
+  url: 'https://lakleeman.github.io',
+  baseUrl: '/Projects/docutest/docusaurus/my-website/',
+  organizationName: 'lakleeman',
+  projectName: 'Projects',
+};
+
 export default config;
