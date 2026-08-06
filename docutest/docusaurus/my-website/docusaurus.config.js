@@ -20,15 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://lakleeman.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/Projects/docutest/docusaurus/my-website/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'lakleeman', // Usually your GitHub org/user name.
+  projectName: 'Projects', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -153,13 +153,6 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
-};
-
-module.exports = {
-  url: 'https://lakleeman.github.io',
-  baseUrl: '/Projects/docutest/docusaurus/my-website/',
-  organizationName: 'lakleeman',
-  projectName: 'Projects',
 };
 
 export default config;
