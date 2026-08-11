@@ -26,6 +26,22 @@ npm run build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
+## Converting a Word document to Docusaurus docs
+
+You can convert a Word `.docx` file into a Docusaurus docs tree with chapter/article/section structure:
+
+```bash
+npm run convert:docx -- path/to/document.docx
+```
+
+The converter writes docs into `docs/generated/<document-name>/` and images into `static/img/docx-conversions/<document-name>/`.
+
+If your document uses custom Word styles rather than the built-in `Heading 1/2/3` styles, pass them explicitly:
+
+```bash
+npm run convert:docx -- path/to/document.docx --chapter-style "Chapter" --article-style "Article" --section-style "Section"
+```
+
 ## Deployment
 
 Using SSH:
